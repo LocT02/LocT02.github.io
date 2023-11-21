@@ -135,7 +135,22 @@ body.gameexp div.elucidate p{
     color: white;
     text-shadow: 2px 2px 2px hsl(68, 99%, 51%); 
 }
+body.gameexp div.elucidate p img{
+    width: 25%;
+    max-width:  100%;
+    margin: auto;
+    height: auto;
+    float: none;
+    border-style: none;
+    border-radius: 20%;
+}
 body.gameexp div.Fetchquest p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: white;
+    text-shadow: 2px 2px 2px hsl(68, 99%, 51%); 
+}
+body.gameexp div.CyberShift p{
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
     color: white;
