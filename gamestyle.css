@@ -54,16 +54,16 @@ body{
     background-position: center;
 }
 body p{
-    padding: 1% 1%;
+    padding: 2%;
     background-color: rgba(0, 0, 0, 0.684);
     border: 2px solid green;
-    width: 100%;
-    margin: auto;
+    width: auto;
+    margin: 1%;
     display: block;
     position: relative;
     font-size: 20px;
     font-size: 3.5vw;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.69);
+    box-shadow: 0px 0px 15px 15px rgba(7, 51, 229, 0.69);
 }
 body a{
     color: yellow;
@@ -76,6 +76,18 @@ body a:hover{
     border-bottom-color: rgba(0, 255, 153, 0.919);
     background-color: rgba(179, 179, 179, 0.684);
     transition: 0.3s;
+}
+body div.container{
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.684);
+    border: 2px solid green;
+    width: 100%;
+    
+    display: block;
+    position: relative;
+    font-size: 20px;
+    font-size: 3.5vw;
+    box-shadow: 0px 0px 100px 100px rgba(226, 222, 222, 0.171);
 }
 .description{
     font-family: 'Poppins', sans-serif;
@@ -131,7 +143,7 @@ body.gameexp div.Fetchquest p{
 }
 /*------------------------------------------------------------------------------------------------------------------------------*/
 /*Contact & Bio Section*/
-body.contact .bio-wrapper p{
+body.profile .bio-wrapper p{
     padding: 1% 1%;
     background-color: rgba(0, 0, 0, 0.684);
     border: 2px solid green;
@@ -146,17 +158,17 @@ body.contact .bio-wrapper p{
     color: white;
     font-size: 20px;
 }
-body.contact .bio-wrapper p img{
+body.profile .bio-wrapper p img{
     display:inline-block;
     padding: 5px;
 }
-body.contact .sm-wrapper{
+body.profile .sm-wrapper{
     display: block;
     text-align: right;
     width: 100%;
     margin-top: 1%
 }
-body.contact .sm-wrapper .sm-button{
+body.profile .sm-wrapper .sm-button{
     display: inline-block;
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.684);
@@ -169,19 +181,19 @@ body.contact .sm-wrapper .sm-button{
     border-radius: 50px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.69);
 }
-body.contact .sm-wrapper .sm-button:hover{
+body.profile .sm-wrapper .sm-button:hover{
     width: 150px;
     border-radius: 0%;
     background-color: rgba(179, 179, 179, 0.684);
     transition: 0.5s;
 }
-body.contact .sm-button a{
+body.profile .sm-button a{
     font-family: 'Poppins', sans-serif;
     color: yellow;
     text-shadow: 2px 2px 2px rgba(0, 255, 238, 0.919);
     border-bottom: 3px solid rgba(255, 255, 255, 0);
 }
-body.contact .sm-button a:hover{
+body.profile .sm-button a:hover{
     font-weight: 100;
     color: rgba(3, 250, 229, 0.987);
     border-bottom-color: rgba(0, 255, 153, 0.919);
